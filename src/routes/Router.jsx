@@ -14,4 +14,8 @@ const router = createHashRouter([
   }
 ]);
 
-export default router;
+const Router = () => {
+  return <RouterProvider router={router} />;
+};
+
+export default Router;
