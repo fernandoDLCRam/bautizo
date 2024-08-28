@@ -58,15 +58,6 @@ const Landing = () => {
       <hr />
       
       <div className="card">
-      <div>
-          <button
-            onClick={() => {
-              oNavigate("/itinerario");
-            }}
-          >
-            INVITADOS
-          </button>
-        </div>
         <Popup
           trigger={<button>ASISTIRE!</button>}
           modal
