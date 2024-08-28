@@ -50,7 +50,7 @@ const Landing = () => {
     <div className="center">
       <div className="title-with-images">
         <img src={BabyPooh} alt="Inicio" className="title-image" />
-        <h2>ASISTE AL BAUTIZO DE MI HIJO!</h2>
+        <h2>ASISTE AL BAUTIZO DE ALEN!</h2>
         <img src={OldPooh} alt="Inicio" className="title-image" />
         
       </div>
