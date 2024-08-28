@@ -59,7 +59,7 @@ const Landing = () => {
       
       <div className="card">
         <Popup
-          trigger={<button>ASISTIRE!</button>}
+          trigger={<button>ASISTIRÉ!</button>}
           modal
           contentStyle={{
             background: "transparent",
@@ -74,7 +74,7 @@ const Landing = () => {
               <p style={{ color: "red" }}>El correo ya está registrado.</p>
             )}
             {phoneExists && (
-              <p style={{ color: "red" }}>El telefono ya está registrado.</p>
+              <p style={{ color: "red" }}>El teléfono ya está registrado.</p>
             )}
             <form onSubmit={handleSubmit} style={formStyle}>
               <label style={labelStyle}>
