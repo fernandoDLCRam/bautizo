@@ -4,8 +4,8 @@ import App from "./App";
 import "./styles/index.css";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 
-import Landing from "../components/Landing";
-import Itinerario from "../components/Itinerario";
+import Landing from "./components/Landing";
+import Itinerario from "./components/Itinerario";
 
 const router = createHashRouter([
   {
