@@ -10,6 +10,7 @@ const Router = () => {
         <Route path="/" element={<Landing />} />
         <Route path="/itinerario" element={<Itinerario />} />
         <Route path="*" element={<Navigate to={<Landing />} />} />
+        <Route path="/404" element={<Navigate to={<Landing />} />} />
       </Route>
     </Routes>
   );
