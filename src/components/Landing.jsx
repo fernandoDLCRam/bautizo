@@ -56,7 +56,7 @@ const Landing = () => {
       </div>
      
       <hr />
-      
+      <h3>Fecha: 6 de Septiembre, 3:00 pm</h3>
       <div className="card">
         <Popup
           trigger={<button>ASISTIRÉ!</button>}
