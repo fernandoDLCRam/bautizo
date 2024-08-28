@@ -127,17 +127,16 @@ const Landing = () => {
         </Popup>
       </div>
 
-      <div>
-        <h3>Ubicación:</h3>
-        <iframe
-          width="600"
-          height="450"
-          style={{ border: 0, width: "100%", height: "300px" }}
-          loading="lazy"
-          allowFullScreen
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.3433518945766!2d-117.03589268481029!3d32.519964981081065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d948d4d305d289%3A0xc69b7c7e05c6f715!2sMonte%20Alif%C3%A1n%2C%20Loma%20Dorada%2C%2022214%20Tijuana%2C%20B.C.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1680094788452!5m2!1sen!2sus"
-        ></iframe>
-      </div>
+<div className="map-container">
+<h3>Ubicación:</h3>
+  <iframe
+    style={{ border: 0, width: "100%", height: "100%" }}
+    loading="lazy"
+    allowFullScreen
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.3433518945766!2d-117.03589268481029!3d32.519964981081065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d948d4d305d289%3A0xc69b7c7e05c6f715!2sMonte%20Alif%C3%A1n%2C%20Loma%20Dorada%2C%2022214%20Tijuana%2C%20B.C.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1680094788452!5m2!1sen!2sus"
+  />
+</div>
+
     
     </div>
   );

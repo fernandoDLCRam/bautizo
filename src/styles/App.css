@@ -126,3 +126,19 @@ h3 {
 .inverted-image-horizontal {
   transform: scaleX(-1);
 }
+
+/* Contenedor del mapa */
+.map-container {
+  width: 100%;
+  height: 50vh; /* Ajusta la altura a 50% del viewport height */
+  max-height: 400px; /* Establece un máximo para pantallas grandes */
+  overflow: hidden; /* Esconde cualquier desbordamiento */
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    height: 40vh; /* Reduce la altura en pantallas más pequeñas */
+    max-height: none; /* Elimina el máximo para permitir que se ajuste al 40vh */
+  }
+}
+
