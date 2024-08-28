@@ -47,8 +47,8 @@ const Landing = () => {
   };
 
   return (
-    <div>
-      <div className="background-image ">
+    <div className="background-image ">
+      <div className="center">
         <div className="title-with-images">
           <img src={BabyPooh} alt="Inicio" className="title-image" />
           <h2>ASISTE AL BAUTIZO DE ALEN!</h2>
@@ -59,7 +59,7 @@ const Landing = () => {
         <hr />
         
         <div className="card">
-        <div>
+          <div>
             <button
               onClick={() => {
                 oNavigate("/itinerario");
@@ -138,6 +138,9 @@ const Landing = () => {
             ></iframe>
           </div>
         </div>
+
+        
+      
       </div>
     </div>
     
