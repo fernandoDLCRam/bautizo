@@ -61,7 +61,7 @@ const Landing = () => {
       <div>
           <button
             onClick={() => {
-              oNavigate("/bautizo/itinerario");
+              oNavigate("/itinerario");
             }}
           >
             INVITADOS

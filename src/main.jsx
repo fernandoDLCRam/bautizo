@@ -9,11 +9,11 @@ import Itinerario from "./components/Itinerario";
 
 const router = createHashRouter([
   {
-    path: "/bautizo",
+    path: "/",
     element: <Landing />,
   },
   {
-    path: "/bautizo/itinerario",
+    path: "/itinerario",
     element: <Itinerario />,
   }
 ]);
