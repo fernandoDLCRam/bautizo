@@ -22,40 +22,42 @@ const Itinerario = () => {
   }, []);
 
   return (
-    <div className="center">
-      <h3>INVITADOS CONFIRMADOS!</h3>
-      <img src={SiluetaPooh} alt="Final"/>
-      <hr />
-      <div className="table-with-images">
-        <img src={ImagenLadoIzquierdo} alt="Izquierda" className="side-image left inverted-image-horizontal" />
-        <div className="table-container">
-          <table>
-            <thead>
-              <tr>
-                {
-                  //ENCABEZADOS DE LA TABLA
-                }
-                <th>Nombre</th>
-                <th>Correo</th>
-                <th>Teléfono</th>
-              </tr>
-            </thead>
-            <tbody>
-              {invitados.map((inv, index) => (
-                
-                <tr key={index}>
-                  <td>{inv.nombre}</td>
-                  <td>{inv.correo}</td>
-                  <td>{inv.telefono}</td>
+    <div className="background-image ">
+      <div className="center">
+        <h3>INVITADOS CONFIRMADOS!</h3>
+        <img src={SiluetaPooh} alt="Final"/>
+        <hr />
+        <div className="table-with-images">
+          <img src={ImagenLadoIzquierdo} alt="Izquierda" className="side-image left inverted-image-horizontal" />
+          <div className="table-container">
+            <table>
+              <thead>
+                <tr>
+                  {
+                    //ENCABEZADOS DE LA TABLA
+                  }
+                  <th>Nombre</th>
+                  <th>Correo</th>
+                  <th>Teléfono</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {invitados.map((inv, index) => (
+                  
+                  <tr key={index}>
+                    <td>{inv.nombre}</td>
+                    <td>{inv.correo}</td>
+                    <td>{inv.telefono}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <img src={ImagenLadoIzquierdo} alt="Derecha" className="side-image right" />
         </div>
-        <img src={ImagenLadoIzquierdo} alt="Derecha" className="side-image right" />
-      </div>
-      <div>
-        <button onClick={() => oNavigate("/")}>VOLVER</button>
+        <div>
+          <button onClick={() => oNavigate("/")}>VOLVER</button>
+        </div>
       </div>
     </div>
   );
